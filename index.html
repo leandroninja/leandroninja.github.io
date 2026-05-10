@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leandro Oliveira Moraes — DevOps Architect</title>
+  <meta name="description" content="Arquiteto Sênior DevOps & Multi-Cloud | Azure, AWS, GCP, Terraform, Kubernetes, FinOps" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════ NAVBAR ═══════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>LOM<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#certificacoes">Certificações</a></li>
+        <li><a href="#badges">Badges</a></li>
+        <li><a href="#contato" class="btn-nav">Contato</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════ HERO ════════════════════════════════ -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="grid-lines"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-text" data-aos="fade-right">
+        <p class="hero-greeting">Olá, sou</p>
+        <h1 class="hero-name">Leandro <span class="accent">Oliveira</span> Moraes</h1>
+        <div class="hero-typed-wrapper">
+          <span id="typed-text"></span><span class="cursor">|</span>
+        </div>
+        <p class="hero-desc">
+          Mais de <strong>8 anos</strong> de experiência em infraestrutura crítica multi-cloud,
+          pipelines CI/CD avançados, plataformas de dados e otimização de custos (FinOps).
+          Baseado em Ponta de Pedras/PE — disponível para remoto ou Recife/PE.
+        </p>
+        <div class="hero-actions">
+          <a href="#contato" class="btn-primary">
+            <i class="fas fa-paper-plane"></i> Fale Comigo
+          </a>
+          <a href="#projetos" class="btn-secondary">
+            <i class="fas fa-code-branch"></i> Ver Projetos
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://linkedin.com/in/leandro-oliveira-26b14768" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/leandroninja" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:leandro.moraes.devops@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-photo" data-aos="fade-left">
+        <div class="photo-ring">
+          <img src="img/foto.jpg" alt="Leandro Oliveira Moraes" />
+        </div>
+        <div class="photo-badge badge-1"><i class="fab fa-microsoft"></i> AZ-400</div>
+        <div class="photo-badge badge-2"><i class="fas fa-cloud"></i> Multi-Cloud</div>
+        <div class="photo-badge badge-3"><i class="fas fa-shield-halved"></i> DevSecOps</div>
+      </div>
+    </div>
+    <a href="#sobre" class="scroll-down"><i class="fas fa-chevron-down"></i></a>
+  </section>
+
+  <!-- ═══════════════════════════════ SOBRE ═══════════════════════════════ -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">// sobre</span>
+        <h2>Quem sou eu</h2>
+      </div>
+      <div class="sobre-grid">
+        <div class="sobre-text" data-aos="fade-right">
+          <p>
+            Sou <strong>Arquiteto Sênior DevOps & Multi-Cloud</strong> com expertise comprovada na
+            arquitetura, implementação e governança de infraestruturas críticas em ambientes
+            <strong>Azure, AWS, GCP, Oracle Cloud e IBM Cloud</strong>.
+          </p>
+          <p>
+            Na <strong>VR Benefícios</strong>, lidero a Plataforma de Dados no Azure,
+            garantindo alta disponibilidade e conformidade de segurança para operações críticas.
+            Anteriormente na <strong>Accenture Brasil</strong>, atuei em projetos DevOps
+            multi-cloud com foco em automação e transformação digital.
+          </p>
+          <p>
+            Além da atuação técnica, sou <strong>Professor Universitário</strong> na UniFBV Wyden,
+            lecionando disciplinas como Cloud Computing, Sistemas Operacionais e Arquitetura de
+            Computadores — combinando prática de mercado com formação acadêmica.
+          </p>
+          <a href="downloads/curriculo_leandro_moraes.pdf" class="btn-outline" download>
+            <i class="fas fa-download"></i> Baixar Currículo
+          </a>
+        </div>
+        <div class="sobre-stats" data-aos="fade-left">
+          <div class="stat-card">
+            <span class="stat-num">8+</span>
+            <span class="stat-label">Anos de Experiência</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">5</span>
+            <span class="stat-label">Clouds Dominadas</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">30+</span>
+            <span class="stat-label">Certificações</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">10+</span>
+            <span class="stat-label">Projetos no GitHub</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════ HABILIDADES ════════════════════════════ -->
+  <section id="habilidades" class="section section-dark">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">// habilidades</span>
+        <h2>Stack Técnica</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="0">
+          <h3><i class="fas fa-cloud"></i> Cloud Computing</h3>
+          <div class="skill-item"><span>Azure</span><div class="bar"><div class="fill" data-w="95"></div></div><span class="pct">95%</span></div>
+          <div class="skill-item"><span>AWS</span><div class="bar"><div class="fill" data-w="82"></div></div><span class="pct">82%</span></div>
+          <div class="skill-item"><span>GCP</span><div class="bar"><div class="fill" data-w="68"></div></div><span class="pct">68%</span></div>
+          <div class="skill-item"><span>Oracle Cloud</span><div class="bar"><div class="fill" data-w="60"></div></div><span class="pct">60%</span></div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+          <h3><i class="fas fa-code-branch"></i> DevOps & CI/CD</h3>
+          <div class="skill-item"><span>Terraform (IaC)</span><div class="bar"><div class="fill" data-w="92"></div></div><span class="pct">92%</span></div>
+          <div class="skill-item"><span>GitHub Actions</span><div class="bar"><div class="fill" data-w="85"></div></div><span class="pct">85%</span></div>
+          <div class="skill-item"><span>Azure DevOps</span><div class="bar"><div class="fill" data-w="93"></div></div><span class="pct">93%</span></div>
+          <div class="skill-item"><span>Jenkins</span><div class="bar"><div class="fill" data-w="80"></div></div><span class="pct">80%</span></div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+          <h3><i class="fas fa-cube"></i> Containers & Orquestração</h3>
+          <div class="skill-item"><span>Kubernetes (GKE/AKS)</span><div class="bar"><div class="fill" data-w="88"></div></div><span class="pct">88%</span></div>
+          <div class="skill-item"><span>Docker</span><div class="bar"><div class="fill" data-w="90"></div></div><span class="pct">90%</span></div>
+          <div class="skill-item"><span>Helm</span><div class="bar"><div class="fill" data-w="75"></div></div><span class="pct">75%</span></div>
+          <div class="skill-item"><span>ArgoCD</span><div class="bar"><div class="fill" data-w="70"></div></div><span class="pct">70%</span></div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+          <h3><i class="fas fa-database"></i> Big Data & DataOps</h3>
+          <div class="skill-item"><span>Databricks</span><div class="bar"><div class="fill" data-w="90"></div></div><span class="pct">90%</span></div>
+          <div class="skill-item"><span>Azure Data Factory</span><div class="bar"><div class="fill" data-w="85"></div></div><span class="pct">85%</span></div>
+          <div class="skill-item"><span>Amazon Redshift</span><div class="bar"><div class="fill" data-w="75"></div></div><span class="pct">75%</span></div>
+          <div class="skill-item"><span>S3 Data Lakes</span><div class="bar"><div class="fill" data-w="80"></div></div><span class="pct">80%</span></div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+          <h3><i class="fas fa-shield-halved"></i> Segurança & Governança</h3>
+          <div class="skill-item"><span>DevSecOps</span><div class="bar"><div class="fill" data-w="85"></div></div><span class="pct">85%</span></div>
+          <div class="skill-item"><span>Zero Trust</span><div class="bar"><div class="fill" data-w="82"></div></div><span class="pct">82%</span></div>
+          <div class="skill-item"><span>Fortinet NSE</span><div class="bar"><div class="fill" data-w="78"></div></div><span class="pct">78%</span></div>
+          <div class="skill-item"><span>Cloud Security</span><div class="bar"><div class="fill" data-w="85"></div></div><span class="pct">85%</span></div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+          <h3><i class="fas fa-chart-line"></i> Observabilidade & FinOps</h3>
+          <div class="skill-item"><span>Dynatrace</span><div class="bar"><div class="fill" data-w="85"></div></div><span class="pct">85%</span></div>
+          <div class="skill-item"><span>Datadog</span><div class="bar"><div class="fill" data-w="80"></div></div><span class="pct">80%</span></div>
+          <div class="skill-item"><span>FinOps / Custos</span><div class="bar"><div class="fill" data-w="90"></div></div><span class="pct">90%</span></div>
+          <div class="skill-item"><span>OpenTelemetry</span><div class="bar"><div class="fill" data-w="75"></div></div><span class="pct">75%</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ EXPERIÊNCIA ══════════════════════════ -->
+  <section id="experiencia" class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">// experiência</span>
+        <h2>Trajetória Profissional</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Especialista DevOps / Arquiteto de Plataforma de Dados</h3>
+                <span class="company"><i class="fas fa-building"></i> VR Benefícios</span>
+              </div>
+              <span class="timeline-date">Nov 2021 — Presente</span>
+            </div>
+            <ul>
+              <li>Arquitetura e implementação completa da Plataforma de Dados no Microsoft Azure com alta disponibilidade e conformidade de segurança.</li>
+              <li>Pipelines CI/CD avançados no Azure DevOps automatizando deploy, testes e gerenciamento via Terraform (IaC).</li>
+              <li>Gestão e otimização da plataforma Databricks (Lakehouse + AI) com práticas FinOps reduzindo custos operacionais.</li>
+              <li>Governança, RBAC, encryption, observabilidade e conformidade em todo o ambiente Azure.</li>
+            </ul>
+            <div class="tags">
+              <span>Azure</span><span>Databricks</span><span>Terraform</span>
+              <span>Azure DevOps</span><span>FinOps</span><span>Kubernetes</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item right" data-aos="fade-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>DevOps Engineer / Consultor em Projetos de Nuvem</h3>
+                <span class="company"><i class="fas fa-building"></i> Accenture Brasil</span>
+              </div>
+              <span class="timeline-date">2020 — Nov 2021</span>
+            </div>
+            <ul>
+              <li>Projetos DevOps em ambientes multi-cloud (Azure e AWS) com soluções escaláveis e automação de processos.</li>
+              <li>Construção de pipelines CI/CD, IaC e integração de ferramentas DevOps em projetos de transformação digital.</li>
+              <li>Sustentação de ambientes críticos AWS: EC2, Elastic Beanstalk, CloudFront, RDS, DynamoDB, Redshift, S3.</li>
+              <li>Resolução de issues de segurança e integração com Jenkins para automação de deployments.</li>
+            </ul>
+            <div class="tags">
+              <span>AWS</span><span>Azure</span><span>Jenkins</span>
+              <span>CI/CD</span><span>Docker</span><span>CloudFront</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Professor Universitário</h3>
+                <span class="company"><i class="fas fa-graduation-cap"></i> UniFBV Wyden</span>
+              </div>
+              <span class="timeline-date">2021 — Presente</span>
+            </div>
+            <ul>
+              <li>Disciplinas: Cloud Computing/IoT/Indústria 4.0, Paradigmas de Programação (Python), Algoritmos em Grafos.</li>
+              <li>Sistemas Operacionais, Arquitetura de Computadores, Fundamentos de Redes e Protocolos.</li>
+              <li>Segurança da Informação e Web Services em Linux.</li>
+            </ul>
+            <div class="tags">
+              <span>Cloud Computing</span><span>Python</span><span>Linux</span><span>Docência</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item right" data-aos="fade-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Professor e Coordenador de TI</h3>
+                <span class="company"><i class="fas fa-graduation-cap"></i> Faculdade Elo / Unifbv / Microlins</span>
+              </div>
+              <span class="timeline-date">Abr 2018 — Nov 2020</span>
+            </div>
+            <ul>
+              <li>Professor em Engenharia da Computação, Ciência da Computação, Sistemas de Informação e ADS.</li>
+              <li>Disciplinas: QA, Teste de Software, Arquitetura de Computadores e Lógica de Programação.</li>
+              <li>Coordenador de TI e Gerente de Projetos no Grupo Elo.</li>
+            </ul>
+            <div class="tags">
+              <span>Gestão de TI</span><span>Docência</span><span>QA</span><span>Liderança</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════ PROJETOS ═══════════════════════════ -->
+  <section id="projetos" class="section section-dark">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">// projetos</span>
+        <h2>Portfólio GitHub</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="project-icon"><i class="fas fa-robot"></i></div>
+          <h3>genai-platform-gcp</h3>
+          <p>Infraestrutura GCP completa para sistemas de IA generativa: GKE, Vertex AI, Cloud Run, RAG Pipeline com LangChain, agente LangGraph e MCP Server.</p>
+          <div class="tags">
+            <span>GCP</span><span>Terraform</span><span>LangChain</span><span>Vertex AI</span><span>Kubernetes</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/leandroninja/genai-platform-gcp" target="_blank"><i class="fab fa-github"></i> Ver Código</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-icon"><i class="fas fa-arrows-split-up-and-left"></i></div>
+          <h3>gcp-azure-devops-platform</h3>
+          <p>Plataforma DevOps multi-cloud GCP+Azure com GitHub Actions, blue-green e canary deployments, GKE, AKS, Secret Manager e Key Vault.</p>
+          <div class="tags">
+            <span>GCP</span><span>Azure</span><span>GitHub Actions</span><span>Terraform</span><span>Blue-Green</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/leandroninja/gcp-azure-devops-platform" target="_blank"><i class="fab fa-github"></i> Ver Código</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-icon"><i class="fas fa-layer-group"></i></div>
+          <h3>terraform-multicloud-infra</h3>
+          <p>Infraestrutura multi-cloud completa: Azure AKS, AWS EKS, Oracle VCN, módulos Databricks e monitoramento centralizado via Terraform.</p>
+          <div class="tags">
+            <span>Terraform</span><span>Azure</span><span>AWS</span><span>OCI</span><span>AKS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/leandroninja/terraform-multicloud-infra" target="_blank"><i class="fab fa-github"></i> Ver Código</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-icon"><i class="fas fa-shield-halved"></i></div>
+          <h3>devsecops-pipeline-suite</h3>
+          <p>Suite de pipelines DevSecOps com análise SAST/DAST, tfsec, checkov, trivy, gitleaks integrados ao GitHub Actions e Azure DevOps.</p>
+          <div class="tags">
+            <span>DevSecOps</span><span>GitHub Actions</span><span>Trivy</span><span>Checkov</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/leandroninja/devsecops-pipeline-suite" target="_blank"><i class="fab fa-github"></i> Ver Código</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="project-icon"><i class="fas fa-fire"></i></div>
+          <h3>databricks-lakehouse-platform</h3>
+          <p>Plataforma Databricks Lakehouse com Delta Lake, Unity Catalog, pipelines ETL, notebooks gerenciados e governança de dados.</p>
+          <div class="tags">
+            <span>Databricks</span><span>Delta Lake</span><span>PySpark</span><span>Unity Catalog</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/leandroninja/databricks-lakehouse-platform" target="_blank"><i class="fab fa-github"></i> Ver Código</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="project-icon"><i class="fas fa-dollar-sign"></i></div>
+          <h3>finops-cloud-optimizer</h3>
+          <p>Ferramenta de otimização de custos cloud: análise de recursos ociosos, recommendations engine, relatórios automáticos e alertas de orçamento.</p>
+          <div class="tags">
+            <span>FinOps</span><span>Python</span><span>Azure</span><span>AWS</span><span>Infracost</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/leandroninja/finops-cloud-optimizer" target="_blank"><i class="fab fa-github"></i> Ver Código</a>
+          </div>
+        </div>
+
+      </div>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="project-icon"><i class="fas fa-infinity"></i></div>
+          <h3>harness-platform-complete-demo</h3>
+          <p>Demonstração completa das 4 certificações Harness: CI, CD blue-green, Security Testing Orchestration (STO) e Cloud Cost Management (CCM) — pipeline end-to-end do build ao deploy com governança de custos.</p>
+          <div class="tags">
+            <span>Harness CI/CD</span><span>Blue-Green</span><span>STO</span><span>CCM FinOps</span><span>OPA</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/leandroninja/harness-platform-complete-demo" target="_blank"><i class="fab fa-github"></i> Ver Código</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-icon"><i class="fas fa-telescope"></i></div>
+          <h3>opentelemetry-sre-platform</h3>
+          <p>Stack SRE completa com OpenTelemetry, Datadog, Prometheus e Grafana. SLOs definidos com burn rate em 3 níveis, runbooks de incidente e instrumentação automática da API com traces, métricas e logs correlacionados.</p>
+          <div class="tags">
+            <span>OpenTelemetry</span><span>Datadog</span><span>SRE</span><span>SLO</span><span>Prometheus</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/leandroninja/opentelemetry-sre-platform" target="_blank"><i class="fab fa-github"></i> Ver Código</a>
+          </div>
+        </div>
+
+      </div>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-icon"><i class="fas fa-fire"></i></div>
+          <h3>databricks-ml-platform-three-clouds</h3>
+          <p>Databricks Lakehouse nas 3 clouds (Azure, AWS, GCP): ingestão Auto Loader, Delta Lake bronze/silver/gold, XGBoost + MLflow + Hyperopt, RAG pipeline com Generative AI e Unity Catalog multi-cloud.</p>
+          <div class="tags">
+            <span>Databricks</span><span>Delta Lake</span><span>MLflow</span><span>GenAI RAG</span><span>Unity Catalog</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/leandroninja/databricks-ml-platform-three-clouds" target="_blank"><i class="fab fa-github"></i> Ver Código</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-icon"><i class="fas fa-lock"></i></div>
+          <h3>zero-trust-devsecops-supply-chain</h3>
+          <p>Pipeline DevSecOps Zero Trust completa: SBOM com Syft/SPDX, SLSA provenance, OPA policies, Istio mTLS STRICT, SPIFFE/SPIRE, Fortinet segmentação, SAST + DAST e compliance EU CRA.</p>
+          <div class="tags">
+            <span>Zero Trust</span><span>SBOM</span><span>SLSA</span><span>OPA</span><span>Fortinet</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/leandroninja/zero-trust-devsecops-supply-chain" target="_blank"><i class="fab fa-github"></i> Ver Código</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="project-icon"><i class="fas fa-network-wired"></i></div>
+          <h3>aviatrix-multicloud-network-lab</h3>
+          <p>Arquitetura Aviatrix Transit: BGP peering full-mesh AWS+Azure+GCP, segmentação por domínios de segurança, FQDN filtering, diagnósticos BGP automatizados e FinOps de custo de rede.</p>
+          <div class="tags">
+            <span>Aviatrix</span><span>BGP</span><span>Multi-Cloud</span><span>FinOps</span><span>Terraform</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/leandroninja/aviatrix-multicloud-network-lab" target="_blank"><i class="fab fa-github"></i> Ver Código</a>
+          </div>
+        </div>
+
+      <div class="projects-cta" data-aos="fade-up">
+        <a href="https://github.com/leandroninja" target="_blank" class="btn-outline">
+          <i class="fab fa-github"></i> Ver todos os repositórios
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ CERTIFICAÇÕES ═════════════════════════ -->
+  <section id="certificacoes" class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">// certificações</span>
+        <h2>Credenciais & Certificações</h2>
+      </div>
+      <div class="certs-grid">
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="0">
+          <div class="cert-logo microsoft"><i class="fab fa-microsoft"></i></div>
+          <div class="cert-info">
+            <h4>Azure DevOps Engineer Expert</h4>
+            <span>AZ-400 · Microsoft</span>
+          </div>
+          <span class="cert-badge">Expert</span>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="50">
+          <div class="cert-logo microsoft"><i class="fab fa-microsoft"></i></div>
+          <div class="cert-info">
+            <h4>Designing Azure Infrastructure Solutions</h4>
+            <span>AZ-305 · Microsoft</span>
+          </div>
+          <span class="cert-badge">Expert</span>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="cert-logo microsoft"><i class="fab fa-microsoft"></i></div>
+          <div class="cert-info">
+            <h4>Azure Administrator</h4>
+            <span>AZ-104 · Microsoft</span>
+          </div>
+          <span class="cert-badge">Associate</span>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="150">
+          <div class="cert-logo databricks"><i class="fas fa-fire"></i></div>
+          <div class="cert-info">
+            <h4>Databricks Platform Architect</h4>
+            <span>Azure · AWS · GCP</span>
+          </div>
+          <span class="cert-badge">Professional</span>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="cert-logo databricks"><i class="fas fa-fire"></i></div>
+          <div class="cert-info">
+            <h4>Databricks Generative AI Fundamentals</h4>
+            <span>Prompt Engineering · Databricks</span>
+          </div>
+          <span class="cert-badge">Certified</span>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="250">
+          <div class="cert-logo aws"><i class="fab fa-aws"></i></div>
+          <div class="cert-info">
+            <h4>AWS Solutions Architect</h4>
+            <span>SAA-C02 · Amazon</span>
+          </div>
+          <span class="cert-badge">Associate</span>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="cert-logo aws"><i class="fab fa-aws"></i></div>
+          <div class="cert-info">
+            <h4>AWS Certified Cloud Practitioner</h4>
+            <span>Amazon Web Services</span>
+          </div>
+          <span class="cert-badge">Certified</span>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="350">
+          <div class="cert-logo gcp"><i class="fab fa-google"></i></div>
+          <div class="cert-info">
+            <h4>GCP: Engenheiro DevOps em Cloud</h4>
+            <span>Em preparação · Google Cloud</span>
+          </div>
+          <span class="cert-badge in-progress">Em Curso</span>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="cert-logo security"><i class="fas fa-shield-halved"></i></div>
+          <div class="cert-info">
+            <h4>Fortinet NSE Certified</h4>
+            <span>Múltiplos níveis · Fortinet</span>
+          </div>
+          <span class="cert-badge">Certified</span>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="450">
+          <div class="cert-logo security"><i class="fas fa-shield-halved"></i></div>
+          <div class="cert-info">
+            <h4>DevSecOps · GitOps · Zero Trust</h4>
+            <span>Linux Foundation</span>
+          </div>
+          <span class="cert-badge">Certified</span>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="500">
+          <div class="cert-logo oracle"><i class="fas fa-database"></i></div>
+          <div class="cert-info">
+            <h4>OCI Certified Foundations Associate</h4>
+            <span>Oracle Cloud Infrastructure</span>
+          </div>
+          <span class="cert-badge">Associate</span>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="550">
+          <div class="cert-logo intel"><i class="fas fa-microchip"></i></div>
+          <div class="cert-info">
+            <h4>Intel CloudDevOps Pro · FinOps</h4>
+            <span>Agents & Agentic AI · Intel</span>
+          </div>
+          <span class="cert-badge">Certified</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ BADGES ═════════════════════════════ -->
+  <section id="badges" class="section section-dark">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">// badges</span>
+        <h2>Badges & Credenciais Digitais</h2>
+        <p class="section-sub">+50 badges verificados em plataformas oficiais</p>
+      </div>
+      <div class="badge-groups">
+
+        <!-- Databricks -->
+        <div class="badge-group" data-aos="fade-up" data-aos-delay="0">
+          <div class="badge-group-header" style="--gc:#ff3c00">
+            <i class="fas fa-fire"></i> Databricks Academy
+          </div>
+          <div class="badge-pills">
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(255,60,0,.15);color:#ff3c00"><i class="fas fa-fire"></i></div>
+              <div class="bp-info"><span class="bp-name">Platform Architect — Azure</span><span class="bp-issuer">Databricks · ago 2023</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(255,60,0,.15);color:#ff3c00"><i class="fas fa-fire"></i></div>
+              <div class="bp-info"><span class="bp-name">Platform Architect — AWS</span><span class="bp-issuer">Databricks · out 2023</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(255,60,0,.15);color:#ff3c00"><i class="fas fa-fire"></i></div>
+              <div class="bp-info"><span class="bp-name">Platform Architect — GCP</span><span class="bp-issuer">Databricks · nov 2023</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(255,60,0,.15);color:#ff3c00"><i class="fas fa-fire"></i></div>
+              <div class="bp-info"><span class="bp-name">Generative AI Fundamentals</span><span class="bp-issuer">Databricks · out 2023</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(255,60,0,.15);color:#ff3c00"><i class="fas fa-fire"></i></div>
+              <div class="bp-info"><span class="bp-name">Databricks Fundamentals</span><span class="bp-issuer">Databricks · jan 2026</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(255,60,0,.15);color:#ff3c00"><i class="fas fa-fire"></i></div>
+              <div class="bp-info"><span class="bp-name">Prompt Engineering Fundamentals</span><span class="bp-issuer">Databricks · jan 2026</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Harness -->
+        <div class="badge-group" data-aos="fade-up" data-aos-delay="50">
+          <div class="badge-group-header" style="--gc:#00b347">
+            <i class="fas fa-code-branch"></i> Harness Inc
+          </div>
+          <div class="badge-pills">
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,179,71,.15);color:#00b347"><i class="fas fa-infinity"></i></div>
+              <div class="bp-info"><span class="bp-name">Certified CI Developer</span><span class="bp-issuer">Harness · jan 2026</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,179,71,.15);color:#00b347"><i class="fas fa-dollar-sign"></i></div>
+              <div class="bp-info"><span class="bp-name">Certified Cloud Cost Management</span><span class="bp-issuer">Harness · jan 2026</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,179,71,.15);color:#00b347"><i class="fas fa-ship"></i></div>
+              <div class="bp-info"><span class="bp-name">Certified CD & GitOps Developer</span><span class="bp-issuer">Harness · jan 2026</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,179,71,.15);color:#00b347"><i class="fas fa-shield-halved"></i></div>
+              <div class="bp-info"><span class="bp-name">Certified Security Testing Orchestration</span><span class="bp-issuer">Harness · jan 2026</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Intel -->
+        <div class="badge-group" data-aos="fade-up" data-aos-delay="100">
+          <div class="badge-group-header" style="--gc:#0071c5">
+            <i class="fas fa-microchip"></i> Intel
+          </div>
+          <div class="badge-pills">
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,113,197,.15);color:#0071c5"><i class="fas fa-cloud"></i></div>
+              <div class="bp-info"><span class="bp-name">Cloud DevOps — Technical Pro</span><span class="bp-issuer">Intel · válido até jan 2029</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,113,197,.15);color:#0071c5"><i class="fas fa-chart-line"></i></div>
+              <div class="bp-info"><span class="bp-name">Cloud FinOps — Solution Pro</span><span class="bp-issuer">Intel · válido até jan 2029</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,113,197,.15);color:#0071c5"><i class="fas fa-robot"></i></div>
+              <div class="bp-info"><span class="bp-name">Agents & Agentic AI Fundamentals</span><span class="bp-issuer">Intel · válido até jul 2027</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Datadog -->
+        <div class="badge-group" data-aos="fade-up" data-aos-delay="150">
+          <div class="badge-group-header" style="--gc:#7c4dff">
+            <i class="fas fa-chart-bar"></i> Datadog
+          </div>
+          <div class="badge-pills">
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(124,77,255,.15);color:#7c4dff"><i class="fas fa-terminal"></i></div>
+              <div class="bp-info"><span class="bp-name">Backend Engineer Learning Path</span><span class="bp-issuer">Datadog · jan 2026</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(124,77,255,.15);color:#7c4dff"><i class="fas fa-shield-halved"></i></div>
+              <div class="bp-info"><span class="bp-name">Cloud Security Engineer — SIEM</span><span class="bp-issuer">Datadog · jan 2026</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(124,77,255,.15);color:#7c4dff"><i class="fas fa-server"></i></div>
+              <div class="bp-info"><span class="bp-name">Site Reliability Engineer Learning Path</span><span class="bp-issuer">Datadog · jan 2026</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Linux Foundation -->
+        <div class="badge-group" data-aos="fade-up" data-aos-delay="200">
+          <div class="badge-group-header" style="--gc:#003b6f">
+            <i class="fab fa-linux"></i> Linux Foundation
+          </div>
+          <div class="badge-pills">
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,59,111,.25);color:#5ba4e5"><i class="fas fa-telescope"></i></div>
+              <div class="bp-info"><span class="bp-name">LFS148: Getting Started with OpenTelemetry</span><span class="bp-issuer">Linux Foundation · jan 2026</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,59,111,.25);color:#5ba4e5"><i class="fas fa-ship"></i></div>
+              <div class="bp-info"><span class="bp-name">LFS169: Introduction to GitOps</span><span class="bp-issuer">Linux Foundation · dez 2025</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,59,111,.25);color:#5ba4e5"><i class="fas fa-lock"></i></div>
+              <div class="bp-info"><span class="bp-name">LFS183: Introduction to Zero Trust</span><span class="bp-issuer">Linux Foundation · dez 2025</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,59,111,.25);color:#5ba4e5"><i class="fas fa-shield-halved"></i></div>
+              <div class="bp-info"><span class="bp-name">LFS180: Introduction to DevSecOps</span><span class="bp-issuer">Linux Foundation · dez 2025</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,59,111,.25);color:#5ba4e5"><i class="fas fa-gauge-high"></i></div>
+              <div class="bp-info"><span class="bp-name">LFS162: DevOps and Site Reliability Eng.</span><span class="bp-issuer">Linux Foundation · dez 2025</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,59,111,.25);color:#5ba4e5"><i class="fas fa-key"></i></div>
+              <div class="bp-info"><span class="bp-name">LFC108: Cybersecurity Essentials</span><span class="bp-issuer">Linux Foundation · dez 2025</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fortinet -->
+        <div class="badge-group" data-aos="fade-up" data-aos-delay="250">
+          <div class="badge-group-header" style="--gc:#ee3124">
+            <i class="fas fa-shield-halved"></i> Fortinet
+          </div>
+          <div class="badge-pills">
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(238,49,36,.15);color:#ee3124"><i class="fas fa-shield-halved"></i></div>
+              <div class="bp-info"><span class="bp-name">Fortinet Certified Associate Cybersecurity</span><span class="bp-issuer">Fortinet · válido até out 2026</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(238,49,36,.15);color:#ee3124"><i class="fas fa-shield-halved"></i></div>
+              <div class="bp-info"><span class="bp-name">Fortinet Certified Fundamentals Cybersecurity</span><span class="bp-issuer">Fortinet · válido até out 2026</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(238,49,36,.15);color:#ee3124"><i class="fas fa-network-wired"></i></div>
+              <div class="bp-info"><span class="bp-name">Fortinet FortiGate 7.4 Operator</span><span class="bp-issuer">Fortinet · out 2024</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PMI + Microsoft + Aviatrix -->
+        <div class="badge-group" data-aos="fade-up" data-aos-delay="300">
+          <div class="badge-group-header" style="--gc:#1c3361">
+            <i class="fas fa-award"></i> PMI · Microsoft · Aviatrix
+          </div>
+          <div class="badge-pills">
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(28,51,97,.25);color:#5b80c4"><i class="fas fa-brain"></i></div>
+              <div class="bp-info"><span class="bp-name">Generative AI Overview for Project Managers</span><span class="bp-issuer">PMI · jan 2026</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(28,51,97,.25);color:#5b80c4"><i class="fas fa-robot"></i></div>
+              <div class="bp-info"><span class="bp-name">Practical Application of Gen AI for PMs</span><span class="bp-issuer">PMI · jan 2026</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,120,212,.15);color:#0078d4"><i class="fab fa-microsoft"></i></div>
+              <div class="bp-info"><span class="bp-name">Azure Fundamentals (AZ-900)</span><span class="bp-issuer">Microsoft · nov 2022</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,120,212,.15);color:#0078d4"><i class="fab fa-microsoft"></i></div>
+              <div class="bp-info"><span class="bp-name">Azure Data Fundamentals (DP-900)</span><span class="bp-issuer">Microsoft · dez 2022</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(0,120,212,.15);color:#0078d4"><i class="fab fa-microsoft"></i></div>
+              <div class="bp-info"><span class="bp-name">Security, Compliance & Identity (SC-900)</span><span class="bp-issuer">Microsoft · nov 2022</span></div>
+            </div>
+            <div class="badge-pill">
+              <div class="bp-icon" style="background:rgba(26,115,232,.15);color:#1a73e8"><i class="fas fa-network-wired"></i></div>
+              <div class="bp-info"><span class="bp-name">Multicloud Network Associate</span><span class="bp-issuer">Aviatrix · válido até dez 2028</span></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ FORMAÇÃO ══════════════════════════════ -->
+  <section id="formacao" class="section section-dark">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">// formação</span>
+        <h2>Formação Acadêmica</h2>
+      </div>
+      <div class="education-grid">
+        <div class="edu-card" data-aos="fade-up" data-aos-delay="0">
+          <i class="fas fa-graduation-cap edu-icon"></i>
+          <div>
+            <h4>Mestrado — Aluno Especial</h4>
+            <p>Educação, Sociedade e Tecnologia</p>
+            <span>UFPE / Edumatec · Em curso</span>
+          </div>
+        </div>
+        <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+          <i class="fas fa-graduation-cap edu-icon"></i>
+          <div>
+            <h4>Especialização em Inteligência Artificial</h4>
+            <p>Pós-Graduação</p>
+            <span>Concluída em 2025</span>
+          </div>
+        </div>
+        <div class="edu-card" data-aos="fade-up" data-aos-delay="200">
+          <i class="fas fa-graduation-cap edu-icon"></i>
+          <div>
+            <h4>MBA em Big Data</h4>
+            <p>Faculdade UniBF — Paraná</p>
+            <span>Concluído em 2021</span>
+          </div>
+        </div>
+        <div class="edu-card" data-aos="fade-up" data-aos-delay="300">
+          <i class="fas fa-graduation-cap edu-icon"></i>
+          <div>
+            <h4>Pós-Graduação em Cloud</h4>
+            <p>Especialização em Cloud Computing</p>
+            <span>Concluída em 2023</span>
+          </div>
+        </div>
+        <div class="edu-card" data-aos="fade-up" data-aos-delay="400">
+          <i class="fas fa-graduation-cap edu-icon"></i>
+          <div>
+            <h4>Pós-Graduação em Gerenciamento de Projetos Ágeis</h4>
+            <p>Metodologias Ágeis</p>
+            <span>Concluída em 2020</span>
+          </div>
+        </div>
+        <div class="edu-card" data-aos="fade-up" data-aos-delay="500">
+          <i class="fas fa-graduation-cap edu-icon"></i>
+          <div>
+            <h4>Bacharelado em Sistemas de Informação</h4>
+            <p>Faculdade Joaquim Nabuco</p>
+            <span>Concluído em 2017</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ CONTATO ══════════════════════════════ -->
+  <section id="contato" class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">// contato</span>
+        <h2>Vamos Conversar</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <p>Disponível para oportunidades remotas, projetos de consultoria e colaborações em arquitetura cloud e DevOps.</p>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Ponta de Pedras/PE — Remoto ou Recife/PE</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:leandro.moraes.devops@gmail.com">leandro.moraes.devops@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>(81) 99637-7099</span>
+          </div>
+          <div class="contact-socials">
+            <a href="https://linkedin.com/in/leandro-oliveira-26b14768" target="_blank" class="social-btn linkedin">
+              <i class="fab fa-linkedin-in"></i> LinkedIn
+            </a>
+            <a href="https://github.com/leandroninja" target="_blank" class="social-btn github">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" data-aos="fade-left" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Nome</label>
+              <input type="text" placeholder="Seu nome" required />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" placeholder="seu@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Assunto</label>
+            <input type="text" placeholder="Assunto da mensagem" required />
+          </div>
+          <div class="form-group">
+            <label>Mensagem</label>
+            <textarea rows="5" placeholder="Descreva sua oportunidade ou projeto..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">
+            <i class="fas fa-paper-plane"></i> Enviar Mensagem
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <span class="nav-logo"><span class="logo-bracket">&lt;</span>LOM<span class="logo-bracket">/&gt;</span></span>
+        <p>Leandro Oliveira Moraes · Arquiteto Sênior DevOps & Multi-Cloud</p>
+        <div class="footer-socials">
+          <a href="https://linkedin.com/in/leandro-oliveira-26b14768" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/leandroninja" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="mailto:leandro.moraes.devops@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2025 Leandro Oliveira Moraes · Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
